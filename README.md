@@ -54,16 +54,19 @@ For The Pudding analytics use `UA-90567923-1`.
 
 #### Copy
 
-Using a Google Doc for copy is recommended. We use [ArchieML](http://archieml.org) as a micro CMS.
+All the copy is directly entered into the partials files.
+We thought about using [ArchieML](http://archieml.org) as a micro CMS, but don't currently do that.
 
-**Setup Google doc**
+Here's how you would do that:
+
+**To use Archie CMS: Setup Google doc**
 
 - Create a Google Doc
 - Click `Share` button -> advanced -> Change... -> to "Anyone with this link"
 - In the address bar, grab the ID - eg. ...com/document/d/**1IiA5a5iCjbjOYvZVgPcjGzMy5PyfCzpPF-LnQdCdFI0**/edit
 - paste in the ID above into `config.json`
 
-Running `npm run doc` at any point (even in new tab while server is running) will pull down the latest, and output a file `data/doc.json`.
+Running `npm run doc` at any point (even in new tab while server is running) will pull down the latest, and output a file `data/copy.json`.
 
 You can now reference the JSON in your HTML, namespaced by `doc` (eg. `<p>{{doc.explanation}}</p>`).
 

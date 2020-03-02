@@ -1,13 +1,15 @@
 {
 	"name": "starter",
 	"version": "4.1.0",
-	"description": "Starter template for Pudding stories",
-	"author": "Russell Goldenberg",
+	"description": "Modified from Pudding stories template",
+	"author": "Samara Trilling",
 	"license": "MIT",
 	"engines": {
 		"node": ">=8.0.0"
 	},
 	"dependencies": {
+		"html-entities": "^1.2.1",
+		"htmlparser2": "^4.1.0",
 		"lodash": "^4.17.15",
 		"lodash.debounce": "4.0.8",
 		"nouislider": "^14.0.2",
@@ -24,7 +26,7 @@
 		"eslint-config-prettier": "6.1.0",
 		"eslint-plugin-import": "2.18.2",
 		"eslint-plugin-prettier": "3.1.0",
-		"handlebars": "^4.4.2",
+		"handlebars": "^4.7.3",
 		"imagemin": "7.0.0",
 		"imagemin-mozjpeg": "8.0.0",
 		"imagemin-pngquant": "8.0.0",

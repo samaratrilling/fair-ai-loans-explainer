@@ -1,17 +1,17 @@
 {
-  "title": "Not-So-Risky Business",
-  "description": "Using Risk-Limiting Audits to Keep Elections Safe",
-  "site": "https://stevenbuccini.com",
+  "title": "Equalized Odds: Equally Right for Everyone",
+  "description": "Defining Fair Lending for Algorithmic Housing Loans",
+  "site": "https://samaratrilling.com",
   "siteName": "",
   "url": "https://site.com/year/month/name/",
   "keywords": "tk",
   "imgFacebook": "https://site.com/year/month/name/assets/social/social-facebook.jpg",
   "imgTwitter": "https://site.com/year/month/name/assets/social/social-twitter.jpg",
   "author": {
-    "name": "Steven Buccini",
-    "url": "https://stevenbuccini.com",
-    "twitterHandle": "@stevenbuccini"
+    "name": "Samara Trilling",
+    "url": "https://samaratrilling.com",
+    "twitterHandle": "@samaratrilling"
   },
   "analytics": "",
-  "lorem": "Explaining what risk-limiting audits is, how it works, and how it differs from what we have today."
+  "lorem": "Explaining the equalized odds definition of fairness, how it incentivizes better lending practices, and how we can implement it"
 }

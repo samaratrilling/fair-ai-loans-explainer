@@ -62,6 +62,7 @@ const makeRequest = (opt, cb) => {
 	});
 
         const unparsed = dom[0].children[1];
+        console.log(unparsed);
         var parsedText = tagHandlers._base(unparsed);
         console.log(parsedText);
         var entities = new Entities();
@@ -70,7 +71,9 @@ const makeRequest = (opt, cb) => {
          return match.replace(/”|“/g, '"').replace(/‘|’/g, "'");
         }); 
         const parsed = archieml.load(parsedText);
+        console.log(parsed);
         const str = JSON.stringify(parsed);
+        console.log(str);
         const file = `${CWD}/${opt.filepath || 'data/doc.json'}`;
 	fs.writeFile(file, str, err => {
           if (err) console.error(err);
